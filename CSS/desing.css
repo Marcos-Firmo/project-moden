@@ -1,0 +1,99 @@
+body{
+    background-color: #fff;
+
+}
+.form{
+    background-color: #000;
+}
+.snick{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    width: 75%;
+    left: 14%;
+    padding: -10%;
+    border-radius: 15px;
+    color: #fff;
+}
+.sub{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: white;
+    outline: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+}
+.user{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 85%;
+    letter-spacing: 2px;
+}
+.user:focus ~ .an,
+.user:valid ~ .an{
+     top: -20px;
+    font-size: 12px;
+    color: yellow;
+}
+.an{
+    position: absolute;
+    top: 0%;
+    left: 8%;
+    pointer-events: none;
+    transition: .5s;
+}
+input[id=bell]{
+    left: 100px;
+    position: relative;
+}
+input[id=ainz]{
+    left: 200px;
+    position: relative;
+}
+h1{
+    font-family:  Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+fieldset{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: #000;
+}
+
+input[type='number']{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+input[type='radio']{
+    width: 20px;
+    height: 16px;
+}
+.InputBox{
+    position: relative;
+}
+a{
+    position: relative;
+    color:white;
+}
+select{
+    background-color: white;
+}
+input[type="date"]{
+    background-color: white;
+}
+b{
+    color: white;
+    position: relative;
+}
+
